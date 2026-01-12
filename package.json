@@ -1,7 +1,7 @@
 {
-  "name": "@fadlee/pocketbase-bin",
-  "version": "1.0.0",
-  "description": "PocketBase binary wrapper with automatic latest version detection",
+  "name": "@zhigang1992/pocketbase-bin",
+  "version": "0.0.1",
+  "description": "PocketBase binary wrapper with superuser impersonate CLI command",
   "main": "bin/runner.js",
   "bin": {
     "pocketbase": "bin/runner.js"
@@ -20,26 +20,25 @@
     "database",
     "backend",
     "sqlite",
-    "latest",
-    "auto-update",
+    "impersonate",
     "binary",
     "wrapper",
     "cli",
     "cross-platform"
   ],
   "author": {
-    "name": "Fadlee",
-    "email": "fad.lee@hotmail.com"
+    "name": "Kyle Fang",
+    "email": "kyle@anthropic.com"
   },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/fadlee/pocketbase-bin.git"
+    "url": "https://github.com/zhigang1992/pocketbase-bin.git"
   },
   "bugs": {
-    "url": "https://github.com/fadlee/pocketbase-bin/issues"
+    "url": "https://github.com/zhigang1992/pocketbase-bin/issues"
   },
-  "homepage": "https://github.com/fadlee/pocketbase-bin#readme",
+  "homepage": "https://github.com/zhigang1992/pocketbase-bin#readme",
   "publishConfig": {
     "access": "public"
   },

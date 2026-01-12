@@ -19,17 +19,16 @@ async function main() {
     // Show help if requested
     if (args.includes('--help') || args.includes('-h')) {
       console.log(`
-PocketBase npm wrapper - Additional options:
+PocketBase npm wrapper (with superuser impersonate CLI) - Additional options:
 
-  --pb-version <version>   Use specific PocketBase version (e.g. --pb-version 0.28.4)
+  --pb-version <version>   Use specific PocketBase version
 
 Environment variables:
   POCKETBASE_VERSION       Set default PocketBase version to use
 
 Examples:
-  npx @fadlee/pocketbase serve                    # Use latest version
-  npx @fadlee/pocketbase --pb-version 0.28.4 serve  # Use specific version
-  POCKETBASE_VERSION=0.28.4 npx @fadlee/pocketbase serve  # Use env var
+  npx @zhigang1992/pocketbase-bin serve                    # Use latest version
+  npx @zhigang1992/pocketbase-bin superuser impersonate users user@example.com  # Impersonate user
 
 PocketBase options:
 `);
